@@ -32,7 +32,7 @@ const REGISTRATION_ENDPOINT = "/api/v2/reservations/request";
 
 const getHeaderOptions = (path, isReg, dataLen) => {
     return {
-        hostname: "bookla.eu",
+        hostname: "some-host-name-that-you-need-to-enter-yourself.eu",
         port: 443,
         path: path,
         method: "POST",
